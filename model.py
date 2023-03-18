@@ -47,13 +47,14 @@ savedmodel = LSTM(input_dim=10002,
 
 def predict(text):
     current_path = os.getcwd()
-    PATH = current_path + '\99cobastatedict.pth'
+    PATH = os.path.join(current_path, '99cobastatedict.pth')
 
     device = torch.device("cpu")
     mod = savedmodel 
     mod.load_state_dict(torch.load(PATH, map_location=device))
 
-    emo_path = current_path + r'\NRC.txt'
+    emo_path = os.path.join(current_path, 'NRC.txt')
+    
     cleaned = pr.Cleaning(text)
     cfold = pr.caseFolding(cleaned)
     token = pr.Tokenization(cfold)
@@ -83,8 +84,8 @@ def predict(text):
 
     return int(pred_label.item())
 
-coba = predict("Hi Firda, We're so grateful for all the love and support you've shown our products these past few seasons. A new season is on it's way, so we thought it would be the perfect time to ask for your feedback on how we can improve and create better products and resources for you! We’re excited to get your feedback on: Artist of Life Workbook (+ vote on next year’s color!) Weekly Reset Planner tbh deck Future products for the Lavendaire shop! Feel free to skip the parts of the survey involving products if you do not have them")
-print("label terprediksi : ", coba)
+# coba = predict("Hi Firda, We're so grateful for all the love and support you've shown our products these past few seasons. A new season is on it's way, so we thought it would be the perfect time to ask for your feedback on how we can improve and create better products and resources for you! We’re excited to get your feedback on: Artist of Life Workbook (+ vote on next year’s color!) Weekly Reset Planner tbh deck Future products for the Lavendaire shop! Feel free to skip the parts of the survey involving products if you do not have them")
+# print("label terprediksi : ", coba)
 
 # current_path = os.getcwd()
 # print(current_path)
