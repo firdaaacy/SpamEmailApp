@@ -31,7 +31,7 @@ def Tokenization(doc):
   return res
 
 def stopWordRemoval(doc):
-  path_doc = os.path.join(current_path+'stopwords.txt')
+  path_doc = os.path.join(current_path, 'stopwords.txt')
   stoplist = (readFileTxt(path_doc)).split()
   res = []
   
