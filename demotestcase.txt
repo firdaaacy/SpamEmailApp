@@ -1,0 +1,31 @@
+DATA TEST :
+spam:
+
+Hi Firda,
+ 
+We're so grateful for all the love and support you've shown our products these past few seasons. A new season is on it's way, so we thought it would be the perfect time to ask for your feedback on how we can improve and create better products and resources for you!
+ 
+We’re excited to get your feedback on:
+Artist of Life Workbook (+ vote on next year’s color!)
+Weekly Reset Planner
+tbh deck
+Future products for the Lavendaire shop!
+Feel free to skip the parts of the survey involving products if you do not have them.
+
+ham :
+Hi Firda,
+
+Congratulations! You passed the TensorFlow Developer Certificate exam, and you are now a TensorFlow Certificate Holder! We recognize the hard work and dedication it takes to reach this level, and we look forward to supporting you in the next steps on your journey as a TensorFlow developer. A few notes from us:
+
+Certificate Network:
+
+You are now eligible to be listed among fellow TensorFlow developers in the TensorFlow Certificate Network. This network is a great place for recruiters to find potential talent and for you to see your peers who have also achieved this accomplishment. If you are interested in joining this network, please complete this form, and you will be added to our directory within 2 weeks of your submission. A few notes:
+You will be automatically removed from this network once your certificate expires. 
+If you would like to make an edit to your entry, you can always revisit the form, and we re-publish updates within 2 weeks. 
+If you would like to be removed from the directory, please email us. 
+
+Digital Certificate & Badge:
+
+You will be receiving an email from Accredible (support@credential.net) with your digital certificate and badge within the next two weeks. We encourage you to share this accomplishment on your resume and platforms like Github and LinkedIn to be recognized as a top candidate for recruiters seeking TensorFlow developers.
+​​​
+Congratulations, and welcome to the community TensorFlow Certificate Holders! 
