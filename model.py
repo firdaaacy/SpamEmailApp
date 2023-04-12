@@ -60,7 +60,7 @@ def predict(text):
     token = pr.Tokenization(cfold)
     text = pr.stopWordRemoval(token)
     if len(text) ==0 :
-        return 1
+        return -1
 
     emo = Emotion.Emotion(text)
     numeric_emotion = emo.getScoreMatrix()
