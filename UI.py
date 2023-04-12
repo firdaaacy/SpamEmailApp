@@ -24,6 +24,8 @@ def main() :
     label = mod.predict(text)
     if label == 1:
         st.warning("Email yang anda masukkan merupakan SPAM")
+    elif label == -1:
+        st.error("Email yang anda masukkan merupakan stopword")
     else :
         st.success("Email yang anda masukkan merupakan BUKAN SPAM")
 
